@@ -1,0 +1,30 @@
+.navbar-active {
+  font-weight: bold;
+  text-decoration: none;
+  color: #97ce4c;
+}
+
+.navbar-inactive {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-inactive:hover {
+  color: #7eb431;
+}
+
+.sign-out-active {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.sign-out-inactive {
+  text-decoration: none;
+  color: white;
+}
+
+.sign-out-active:hover,
+.sign-out-inactive:hover {
+  color: #7eb431;
+}

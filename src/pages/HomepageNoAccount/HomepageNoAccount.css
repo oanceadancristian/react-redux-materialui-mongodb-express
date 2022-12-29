@@ -1,0 +1,7 @@
+.homepage-no-account-no-background-image {
+  width: 33vh;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -33%);
+}

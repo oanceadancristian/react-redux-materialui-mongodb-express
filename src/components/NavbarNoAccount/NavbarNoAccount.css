@@ -1,0 +1,14 @@
+.active-no-account {
+  font-weight: bold;
+  text-decoration: none;
+  color: #97ce4c;
+}
+
+.inactive-no-account {
+  text-decoration: none;
+  color: white;
+}
+
+.inactive-no-account:hover {
+  color: #7eb431;
+}

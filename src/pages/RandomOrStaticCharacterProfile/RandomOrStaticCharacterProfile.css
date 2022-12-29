@@ -1,0 +1,124 @@
+.random-or-static-character-image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 10px;
+}
+
+.random-or-static-green {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  width: 8px;
+  height: 8px;
+  margin: 0 10px;
+  background-color: #2e7d32;
+  transform: rotate(-45deg);
+  animation: pulse 1s linear infinite;
+}
+
+.random-or-static-green:before,
+.random-or-static-green:after {
+  content: '';
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #2e7d32;
+}
+
+.random-or-static-green:before {
+  top: -4px;
+  left: 0;
+}
+
+.random-or-static-green:after {
+  left: 4px;
+  top: 0;
+}
+
+.random-or-static-red {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  width: 8px;
+  height: 8px;
+  margin: 0 10px;
+  background-color: #d32f2f;
+  transform: rotate(-45deg);
+  animation: pulse 1s linear infinite;
+}
+
+.random-or-static-red:before,
+.random-or-static-red:after {
+  content: '';
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #d32f2f;
+}
+
+.random-or-static-red:before {
+  top: -4px;
+  left: 0;
+}
+
+.random-or-static-red:after {
+  left: 4px;
+  top: 0;
+}
+
+.random-or-static-gray {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  width: 8px;
+  height: 8px;
+  margin: 0 10px;
+  background-color: #1976d2;
+  transform: rotate(-45deg);
+  animation: pulse 1s linear infinite;
+}
+
+.random-or-static-gray:before,
+.random-or-static-gray:after {
+  content: '';
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #1976d2;
+}
+
+.random-or-static-gray:before {
+  top: -4px;
+  left: 0;
+}
+
+.random-or-static-gray:after {
+  left: 4px;
+  top: 0;
+}
+
+@keyframes pulse {
+  0% {
+    transform: rotate(-45deg) scale(1);
+  }
+  50% {
+    transform: rotate(-45deg) scale(1.3);
+  }
+  100% {
+    transform: rotate(-45deg) scale(1);
+  }
+}
+
+@media (max-width: 1200px) {
+  .random-or-static-character-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
